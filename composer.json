@@ -3,7 +3,7 @@
     "description": "Simple, but practical list viewer, which can help you to find certain word, or similar expression and give a result.",
     "type": "library",
     "require": {
-        "php": "^7.0"
+        "php": ">=7.0"
     },
     "license": "BSD-3-Clause",
     "authors": [
