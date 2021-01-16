@@ -124,7 +124,8 @@ class Scanner implements ScannerInterface {
             $fnd = true;
             while ($fnd) {
                 $fnd = false;
-                if ($key = array_search($value, $array)) {
+                $key = array_search($value, $array);
+                if (gettype($key) != "boolean") {
                     unset($array[$key]);
                     $fnd = true;
                 }
